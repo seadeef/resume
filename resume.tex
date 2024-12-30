@@ -1,0 +1,212 @@
+%-------------------------
+% Resume in Latex
+% Author : Gabriel Sison
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Random Stuff %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-7pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Commands  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-3pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubheadingContinue}[2]{
+  \vspace{-3pt}
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{0pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Heading  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+    \begin{center}
+        % NAME
+        {\Huge\scshape KEVIN TOREN} 
+        % SUBHEADING
+        % \\OPTIONAL SUBHEADING\\
+        
+        \vspace{5 pt}
+        \small
+        % EMAIL
+        \href{mailto:kevin@drymail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{kevin@drymail.com}} ~ 
+        % LINKEDIN
+        % \href{https://linkedin.com/in/jincho25}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/jincho25}}  ~
+        % GITHUB
+        \href{https://github.com/seadeef}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/seadeef}}
+    \end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Education  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+  \resumeSubHeadingListStart
+  
+    % MAIN INFORMATION
+    \resumeSubheading
+    {BRANHAM HIGH SCHOOL}{SAN JOSE, CA}
+    {High School Diploma, 4.45 GPA}{AUGUST 2021 - JUNE 2025}
+        % BULLET POINTS
+        \resumeItemListStart
+            \resumeItem{\textbf{Selected Coursework:}  AP Computer Science Principles, AP Computer Science A, AP Calculus BC}
+            
+        \resumeItemListEnd
+        
+  \resumeSubHeadingListEnd
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Experience  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience}
+    \resumeSubHeadingListStart
+    
+        % COMPANY 1
+        \resumeSubheading
+        {MAGIKID ROBOTICS LAB}{SAN JOSE, CA}
+            % POSITION 1
+            {ROBOTICS COACH \& STEM INSTRUCTOR}{JUNE 2023 - PRESENT}
+            \resumeItemListStart
+                \resumeItem{Managing the building, programming, and documentation of two globally-qualified Vex IQ middle school teams}
+                \resumeItem{Increasing student enrollment by teaching trial classes, resulting in the creation of two new class sessions}
+                \resumeItem{Developed documentation templates based on official rubrics, enabling coached teams to win multiple judged awards}
+                \resumeItem{Teaching programming and robotics courses to children ages 6-12 that consistently score above other student sections}
+               % \resumeItem{Designed a Creative Engineering Class by company request, becoming the only coach to instruct a non-standard course}
+                \resumeItem{Cultivating positive relationships with parents by creating multimedia showcases of student achievements and writing personalized class summaries, leading to consistent student re-enrollment}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  PROJECTS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Organizations} 
+    \resumeSubHeadingListStart
+        \resumeSubheading
+        {BLU'S HACKS}{SAN JOSE, CA}
+            % POSITION 2
+            {CO-DIRECTOR}{AUGUST 2022 - PRESENT}
+            \resumeItemListStart
+                \resumeItem{Researched and categorized over 100 potential hackathon sponsors}
+                \resumeItem{Led a team of CS students to create  cybersecurity CTF challenges based on web-exploitation, cryptography, and OSINT}
+                \resumeItem{Hosted a CTF challenge for 100+ participants using the CTFd platform on a custom domain with zero downtime}
+                \resumeItem{Contacted 20+ cybersecurity companies, leading to \$1.5k in funding and multiple requests to support the CTF challenge}
+            \resumeItemListEnd
+
+        \resumeSubheading
+        {BRANHAM CYBERSECURITY CLUB}{SAN JOSE, CA}
+            % POSITION 2
+            {CLUB FOUNDER \& PRESIDENT}{JANUARY 2023 - PRESENT}
+            \resumeItemListStart
+                \resumeItem{Facilitated club growth of 30 members in one semester through club rush events, class presentations, and mass-emailing}
+                \resumeItem{Created a series of live demonstrations showcasing real usage of Kali Linux tools using "victim" and "attacker" VMs}
+                \resumeItem{Established teams for PicoCTF 2023 and CyberPatriot XVI, placing in top 2\%  and Platinum Semifinals, respectively}
+            \resumeItemListEnd
+
+        \resumeSubheading
+        {BIONIC BRUINS: BRANHAM ROBOTICS CLUB}{SAN JOSE, CA}
+            % POSITION 1
+            {DIRECTOR OF OUTREACH}{MAY 2023 - PRESENT}
+            \resumeItemListStart
+                \resumeItem{Secured club appearances at local elementary schools through existing contacts and cold emails}
+                \resumeItem{Established and managed a team of ten club members to create and present educational activities at outreach events}
+            \resumeItemListEnd
+
+            
+\resumeSubHeadingListEnd
+\section{Projects}
+    \resumeSubHeadingListStart
+    % MAIN INFORMATION
+        \resumeProjectHeading
+            {\textbf{4x4x4 LED Cube}
+            $|$ \href{https://github.com/seadeef/LEDCube}{\underline{github.com/seadeef/LEDCube}}
+            $|$ \href{https://youtu.be/voMU-fiMV6s}{\underline{youtu.be/voMU-fiMV6s}}}{}
+            % BULLET POINTS
+            \resumeItemListStart[leftmargin=0.15in]
+                \resumeItem{Soldered and assembled 64 individual LEDs into a standalone and portable cube}
+                \resumeItem{Created a multiplexing scheme using transistors to decrease the amount of needed Raspberry-Pi GPIO pins from 64 to 16}
+                \resumeItem{Developed eight eye-catching animation routines based on a common physical interface using the RPi.GPIO library}
+                
+            \resumeItemListEnd
+            
+        \resumeProjectHeading
+            {\textbf{6374B Competition Robot}
+            $|$ \href{https://github.com/BionicBruins6374/b-team-robot}{\underline{github.com/BionicBruins6374/b-team-robot}}}{}
+            % BULLET POINTS
+            \resumeItemListStart[leftmargin=0.15in]
+                \resumeItem{Created controls for a VEX VRC 2022 Spin Up robot in order to comply with physical constraints and driver preference}
+                \resumeItem{Automatically detected colored game objects using a Vex V5 vision sensor, enabling consistent autonomous performance}
+                \resumeItem{Developed contributing guidelines and educated club members on C++ and ProsV5 API, leading to accelerated progress}
+                
+            \resumeItemListEnd
+                
+      \resumeSubHeadingListEnd
+
+
+\section{Awards \& Honors}
+\resumeSubHeadingListStart
+    \resumeSubheading
+        {VEX Worlds Competition Arts Division Inspire Award}{DALLAS, TX}
+            % POSITION 2
+            {Issued by REC Education Foundation}{MARCH 2023}
+\\[8pt]
+    \resumeSubheading
+        {National Cyber Scholarship Finalist}{}
+            % POSITION 2
+            {Issued by National Cyber Scholarship Foundation}{JUNE 2022}
+    \resumeSubHeadingListEnd
+ 
+\end{document}
